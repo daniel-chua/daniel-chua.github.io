@@ -3,15 +3,16 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+  <div class="date text-center text-secondary fst-italic">
+    <small>{{ page.date | date: "%B %e, %Y" }}</small>
+  </div>
+  <h1 class="text-center mb-4">{{ page.title }}</h1>
 
   <div class="entry">
     {{ content }}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+  <div class="sharethis-inline-share-buttons"></div>
 
   {% include disqus.html %}
 </article>

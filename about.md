@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi, I’m Daniel Chua. I’m interested in exploring ideas that empower us to do better work and lead fulfilling lives. This website is where I share my thoughts.
 
-### More Information
+I believe in the importance of being a multi-disciplinary thinker and love exploring ideas that can empower people. I started writing to clarify my thoughts and to share what I learn along the way.
 
-A place to include any other types of information that you'd like to include about yourself.
+You may find a complete list of my posts here.
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+{% include svg-icons.html %}
